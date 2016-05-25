@@ -182,6 +182,7 @@ Click the Start button (the green arrow in the toolbar) and confirm that your ap
 If all goes according to plan, you will see debug trace in the console window that will tell you the result of the logon attempt. If successful, the player will be logged in to PlayFab with a session ticket that is valid for 24 hours. The returned PlayFab ID in the Login method can now be used for subsequent API calls while the player interacts with your game. 
 Once you have created a PlayFab account for a player from any game in your studio, their PlayFab account ID is available for all of the games in your studio.
 
+![The PlayFab ID has been found](https://raw.githubusercontent.com/PlayFab/PlayFab-Samples/recipe_dev/Guides/SDKQuickStart/Assets/images/C#output.png "The output of the console window.")
 
 ### Confirm the new player in the Game Manager ###
 You can now return to the Game Manager and confirm that the player has been created. Your new player should be immediately visible from the PlayStream Debugger. 
